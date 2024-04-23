@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Daiwik Pharmasphere | Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <!-- <link href="assets/css/main.css" rel="stylesheet"> -->
+  <link href="assets/css/home.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="google_translate_element"></div>
+    
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/apex_logo.png" alt="">
+          <!-- <h1>Daiwik Pharmasphere<span>.</span></h1> -->
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list" style="color: black"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="dropdown"><a href="about.html"><span>About Us</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="about.html#aboutus">Mission, Vision & Values</a></li>
+                <li><a href="about.html#alt-services">Manufacturing</a></li>
+                <li><a href="about.html#alt-services-2">Research & Development</a></li>
+                <li><a href="about.html#team">Management Team</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="products.html"><span>Products</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="products/therapeutic.html">Therapeutic Categories</a></li>
+                <li><a href="products/specialty.html">Specialty Products</a></li>
+                <li><a href="products/gelatine.html">Soft Gelatine Capsules</a></li>
+                <li><a href="products/customized-solutions.html">Customized Solutions</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Media Center</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="news-announcements.html">News and Announcements</a></li>
+                <li><a href="events.html">Events</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="careers.html"><span>Careers</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="careers/working-at-apex.html">Working At Daiwik</a></li>
+                <li><a href="careers/current-openings.html">Current Openings</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+          </ul>
+        </nav><!-- .navbar -->
+
+      </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <button id="floating-button">Product Gallery</button>
+
+    <script>
+      // Get the button
+      var mybutton = document.getElementById("floating-button");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the button is clicked, navigate to product.html
+      mybutton.addEventListener("click", function () {
+        window.location.href = "products.html";
+      });
+    </script>
+
+
+
+    <section id="hero" class="hero">
+
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center" style="margin-top: 40px">
+              <h2 data-aos="fade-down">Welcome to <span>Daiwik Pharmasphere</span></h2>
+              <p data-aos="fade-up">A topical manufacturing facility offering a wide range of formulations in form of Ointments and Creams.</p>
+              <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Landing Page Image -->
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-item active landing-page-img" style="background-image: url(assets/img/bg2.webp);"></div>
+      </div>
+
+
+
+    </section><!-- End Hero Section -->
+
+    <main id="main">
+
+      <!-- ======= Get Started Section ======= -->
+      <section id="get-started" class="get-started section-bg">
+        <div class="container">
+
+          <div class="row justify-content-between gy-4">
+
+            <!-- ======= Manufacturing Section ======= -->
+            <section id="constructions" class="constructions">
+              <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                  <h2>Manufacturing</h2>
+                  <p>Daiwik Pharmasphere excels in manufacturing world-class formulations in independent manufacturing
+                    facilities across India. The facilities are well-equipped to produce Tablets, Capsules, Syrups,
+                    Ointments, Dry Powder Injections, Liquid Injections, Ophthalmic solutions, Suppositories and specialty
+                    products like Lozenges, Dermaceuticals, Aerosols, Mosquito Repellents, and Condoms.</p>
+                </div>
+
+                <div class="row gy-4">
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-item">
+                      <div class="row">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/Manufacturing/manu-1.jpg);"></div>
+                        </div>
+                        <div class="col-xl-7 d-flex align-items-center">
+                          <div class="card-body">
+                            <!-- <h4 class="card-title">Eligendi omnis sunt veritatis.</h4> -->
+                            <p>Our products are manufactured at cGMP certified facilities as per WHO guidelines. The team
+                              ensures that the products are manufactured in accordance with global standards and customer
+                              specifications at all times.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Card Item -->
+
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-item">
+                      <div class="row">
+                        <div class="col-xl-5">
+                          <div class="card-bg" style="background-image: url(assets/img/Manufacturing/manu-2.jpg);"></div>
+                        </div>
+                        <div class="col-xl-7 d-flex align-items-center">
+                          <div class="card-body">
+                            <!-- <h4 class="card-title">Possimus ut sed velit assumenda</h4> -->
+                            <p>We also customize the packaging as per the requirements of the importing country. We also
+                              offer our products in private labels for any part and any language of the world.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- End Card Item -->
+
+                </div>
+
+              </div>
+            </section><!-- End Constructions Section -->
+
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services section-bg">
+              <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                  <h2>Why Daiwik</h2>
+                  <p>Daiwik Pharmasphere was established in 1975 as a trader and importer of API with a small unit of
+                    repacking of pharmaceutical products for human and veterinary use.</p>
+                </div>
+
+                <div class="row gy-4 justify-content-center text-center">
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fas fa-file-alt"></i>
+                      </div>
+                      <h3>Registration & Regulatory Support</h3>
+                      <!-- <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p> -->
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fa-solid fa-shield"></i>
+                      </div>
+                      <h3>Strict Quality Control & Batch Release</h3>
+                      <!-- <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p> -->
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6 align-items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fa-solid fa-box"></i>
+                      </div>
+                      <h3>Flexibility Of Packaging & Branding</h3>
+                      <!-- <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p> -->
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item  position-relative">
+                      <div class="icon">
+                        <i class="fa-solid fa-vials"></i>
+                      </div>
+                      <h3>Stable Formulations</h3>
+                      <!-- <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p> -->
+                      <!-- <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a> -->
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <div class="col-lg-4 col-md-6 align-items-center" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                      </div>
+                      <h3>Ownership & Commitment</h3>
+                      <!-- <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p> -->
+                    </div>
+                  </div><!-- End Service Item -->
+
+                  <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                </div>
+                <h3>Dolori Architecto</h3>
+                <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+                <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div> -->
+
+                </div>
+
+              </div>
+            </section><!-- End Services Section -->
+
+            <!-- ======= Alt Services Section ======= -->
+            <!-- End Alt Services Section -->
+
+            <!-- ======= Features Section ======= -->
+            <!-- End Features Section -->
+
+            <!-- ======= Our Projects Section ======= -->
+            <section id="projects" class="projects">
+              <div class="container" data-aos="fade-up">
+
+                <div class="section-header">
+                  <h2>Dosage Forms</h2>
+                  <!-- <p>Consequatur libero assumenda est voluptatem est quidem illum et officia imilique qui vel architecto accusamus fugit aut qui distinctio</p> -->
+                </div>
+
+                <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+                  data-portfolio-sort="original-order">
+
+                  <!-- <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-remodeling">Remodeling</li>
+              <li data-filter=".filter-construction">Construction</li>
+              <li data-filter=".filter-repairs">Repairs</li>
+              <li data-filter=".filter-design">Design</li>
+            </ul>End Projects Filters -->
+
+                  <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/pills.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <p>TABLETS & CAPSULES</p>
+                          <!-- <a href="assets/img/medicine2.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/inject.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <p>INJECTABLES</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/syrup.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Repairs 1</h4> -->
+                          <p>SYRUPS & SUSPENSION</p>
+                          <!-- <a href="assets/img/medicine2.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/cream.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Design 1</h4> -->
+                          <p>CREAMS & OINTMENTS</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/eye.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Remodeling 2</h4> -->
+                          <p>OPHTHALMICS</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/soft.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Construction 2</h4> -->
+                          <p>SOFT GELATINES</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/spray.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Repairs 2</h4> -->
+                          <p>SPRAYS-AEROSOL & NON-AEROSOL</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/condom.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Design 2</h4> -->
+                          <p>CONDOMS</p>
+                          <!-- <a href="assets/img/medicine2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+                      <div class="portfolio-content h-100">
+                        <img src="assets/img/projects/herbal.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <!-- <h4>Remodeling 3</h4> -->
+                          <p>HERBALS</p>
+                          <!-- <a href="assets/img/medicine1.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                          <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                        </div>
+                      </div>
+                    </div><!-- End Projects Item -->
+
+                  </div><!-- End Projects Container -->
+
+                </div>
+
+              </div>
+            </section><!-- End Our Projects Section -->
+
+            <!-- ======= Recent Blog Posts Section ======= -->
+            
+            <!-- End Recent Blog Posts Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="footer-content position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info">
+                <h3>Daiwik Pharmasphere</h3>
+                <p>
+                  404, D Square, Opposite C.N.M. School, <br> 
+                Dadabhai Road, Vile Parle West, <br>
+                Mumbai – 400056, Maharashtra, India. <br><br>
+                  <strong>Phone:</strong> +91 84693 44488 / 84693 66688<br>
+                  <strong>Email:</strong> info@adh.co.in<br>
+                </p>
+                <div class="social-links d-flex mt-3">
+                  <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a> -->
+                  <!-- <a href="https://www.linkedin.com/company/apex-drug-house/?originalSubdomain=in" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div><!-- End footer info column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+              </ul>
+            </div><!-- End footer links column-->
+
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Additional Links</h4>
+              <ul>
+                <li><a href="./Apex_Product_List.pdf" target="_blank">Product Brochure</a></li>
+                  <li><a href="contact.html" target="_blank">Enquiry</a></li>
+              </ul>
+            </div><!-- End footer links column-->
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-legal text-center position-relative">
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Daiwik Pharmasphere</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="https://cyhex.co/">Cyhex</a>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $(window).scroll(function(){
+          if($(this).scrollTop() > 10){
+              $('#header').addClass('scrolled');
+          } else {
+              $('#header').removeClass('scrolled');
+          }
+      });
+    });
+    </script> -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+ <script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          userLanguage: 'auto',
+          layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+          autoDisplay: true
+        }, 'google_translate_element');
+      }
+    </script>
+
+  <script type="text/javascript">
+
+    window.addEventListener('load', function() {
+      const selectElement = document.querySelector('.goog-te-combo');
+      if (selectElement) {
+        var event = new Event('change');
+        selectElement.dispatchEvent(event);
+        selectElement.dispatchEvent(new Event('change'));
+      }
+    });
+  </script>
+  
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

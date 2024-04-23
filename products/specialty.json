@@ -1,0 +1,296 @@
+[
+    {
+        "Dermaceuticals OTC": [
+            {
+                "Product": "Hair Growth",
+                "Active Ingredient": "Tocotrienol + Coconut Oil + Mineral Oil +\nFragrance + B.H.T.",
+                "Form & strength": "Oil",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Hyperpigmentation",
+                "Active Ingredient": "Kojic Acid + Pine Bark Extract + Sodium\nAscorbyl Phosphate",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "15g"
+            },
+            {
+                "Product": "Hyperpigmentation",
+                "Active Ingredient": "Hydroquinone + Tretinoin + Fluocinolone\nAcetonide",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "15g"
+            },
+            {
+                "Product": "Skin Whitening",
+                "Active Ingredient": "Melanostatin + Tyrostat",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            },
+            {
+                "Product": "Foot Care",
+                "Active Ingredient": "Vitamin E + Aloevera",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            },
+            {
+                "Product": "Anti Lice",
+                "Active Ingredient": "Dimethicone",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml"
+            },
+            {
+                "Product": "Shampoo",
+                "Active Ingredient": "Ketoconazole",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml"
+            }
+        ]
+    },
+    {
+        "Sprays": [
+            {
+                "Product": "Pain Relief",
+                "Active Ingredient": "Diclofenac Diethylamine",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Topical spray for\ntreatment of PE",
+                "Active Ingredient": "Lidocaine",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "10ml"
+            },
+            {
+                "Product": "Antifungal",
+                "Active Ingredient": "Terbinafine",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Multi-purpose Topical\nsolution",
+                "Active Ingredient": "Povidone Iodine",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml"
+            },
+            {
+                "Product": "Bandage Spray",
+                "Active Ingredient": "Polyvinyl Polymer + Benzocaine + Dichloro\nMetaxylenol + Cetrimide + IPA",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml"
+            },
+            {
+                "Product": "Hot Cool Pain Relief\nSpray",
+                "Active Ingredient": "Diclofenac Diethyl Ammonium + Methyl\nSalicylate + Capsicum Oleoresin + Menthol",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml,\n100ml"
+            },
+            {
+                "Product": "Herbal Pain Relief\nSpray",
+                "Active Ingredient": "Wintergreen oil + Menthol + Camphor +\nEucalyptus oil + Turpentine oil + Clove oil +\nThymol + Isopropyl Myristate + Kinseed oil +",
+                "Form & strength": "Spray",
+                "Pack Type": "Bottle",
+                "Packing Style": "50ml,\n100ml"
+            }
+        ]
+    },
+    {
+        "OTC": [
+            {
+                "Product": "Condoms",
+                "Active Ingredient": "Condoms (Dotted, Ribbed, Super Thin)",
+                "Form & strength": "Available in Strawberry,\nChocolate, Banana, Vanilla",
+                "Pack Type": "Jacket of 3",
+                "Packing Style": "-"
+            },
+            {
+                "Product": "Mosquito Repellents",
+                "Active Ingredient": "Diethyl Benzamide",
+                "Form & strength": "Cream, Liquid, Spray",
+                "Pack Type": "Bottle, Spray",
+                "Packing Style": "-"
+            },
+            {
+                "Product": "Apex Balm",
+                "Active Ingredient": "Methyl Salicylate + Menthol + Turpentine oil +\nEucalyptus Oil + Thymol + Lemon Grass oil +\nPeppermint oil + Citronella oil + Cinnamon oil",
+                "Form & strength": "Balm",
+                "Pack Type": "Bottle",
+                "Packing Style": "-"
+            }
+        ]
+    },
+    {
+        "Cosmetics": [
+            {
+                "Product": "Moisturizer (Breast Feeding\nMothers)",
+                "Active Ingredient": "Lanolin",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "5g, 15g"
+            },
+            {
+                "Product": "Moisturizer",
+                "Active Ingredient": "Aloe Extract + Vitamin E + Moisturizing Cream Base",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "30g"
+            },
+            {
+                "Product": "Moisturizer",
+                "Active Ingredient": "Aleo Extract + Purified Honey + Wheat Germ Oil + Tea Tree\nOil",
+                "Form & strength": "Cream",
+                "Pack Type": "Bottle",
+                "Packing Style": "25ml,\n50ml"
+            },
+            {
+                "Product": "Moisturizer",
+                "Active Ingredient": "Aloe Vera + Squalene + Vitamin E Acetate + Propylene Glycol\n+ Liquid Paraffin",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "30g"
+            },
+            {
+                "Product": "Moisturizer",
+                "Active Ingredient": "Wheat Germ oil + Aleo Vera Gel + Propylene Glycol +\nSqualene",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "30g"
+            },
+            {
+                "Product": "Moisturizer",
+                "Active Ingredient": "Activated Dimethicone + Aloe Vera gel + Jojoba oil +\nTriclosan",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "30g"
+            },
+            {
+                "Product": "Nappy Rash Cream",
+                "Active Ingredient": "Palmitate + Colicalciferol + Zinc Oxide + Allantoin + Aloevera",
+                "Form & strength": "Ointment",
+                "Pack Type": "Tube",
+                "Packing Style": "35g"
+            },
+            {
+                "Product": "Strech Marks Cream",
+                "Active Ingredient": "Aloe Barbadensis + Rotula aquatic + Hemidesmus racemosa +\nSymplocos Racemosa + Terminalia Chebula + Acacia Arabia",
+                "Form & strength": "Cream",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            },
+            {
+                "Product": "Sunscreen Lotion",
+                "Active Ingredient": "Octyl Methoxycinnamate + Avobenzone + Titanium Dioxide +\nAloe Vera Gel + Wheat Germ oil",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Sunscreen Lotion",
+                "Active Ingredient": "Octyl Methoxycinnamate + Oxybenzone + Avobenzone +\nVitamine E Acetate + Aloe Vera",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Sunscreen Lotion",
+                "Active Ingredient": "Octyl Methoxycinnamate + Oxybenzone + Avobenzone + Zinc\nOxide",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            },
+            {
+                "Product": "Sunscreen Lotion",
+                "Active Ingredient": "Octyl Methoxycinnamate + Oxybenzone + Octocrylene + Zinc\nOxide",
+                "Form & strength": "Lotion",
+                "Pack Type": "Bottle",
+                "Packing Style": "100ml"
+            }
+        ]
+    },
+    {
+        "Medicated Toothpaste": [
+            {
+                "Product": "Toothpaste",
+                "Active Ingredient": "Potassium Nitrate + Sodium\nMonofluorophosphate + Triclosan",
+                "Form & strength": "5%w/w + 0.7%w/w + 0.3%w/w",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            },
+            {
+                "Product": "Toothpaste",
+                "Active Ingredient": "Potassium Nitrate",
+                "Form & strength": "5%w/w",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            },
+            {
+                "Product": "Toothpaste",
+                "Active Ingredient": "Potassium Nitrate + Sodium\nMonofluorophosphate",
+                "Form & strength": "",
+                "Pack Type": "Tube",
+                "Packing Style": "50g"
+            }
+        ]
+    },
+    {
+        "Lozenges": [
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "Benzocaine + Menthol (Orange, Honey\nLime and Raspberry Flavour)",
+                "Form & strength": "6mg + 10mg",
+                "Pack Type": "Blister",
+                "Packing Style": "8"
+            },
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "2,4 Dichlorobenzyl alchol +\nAmylmetacersol (Orange and Lemon",
+                "Form & strength": "1.2mg + 0.6mg",
+                "Pack Type": "Blister",
+                "Packing Style": "10's"
+            },
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "Dextromethorphan Hydrobromide +\nAmylmetacresol + Mentholated Sugar\nFree Base",
+                "Form & strength": "5mg + 0.6mg",
+                "Pack Type": "Blister",
+                "Packing Style": "10's"
+            },
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "Dextromethorphan Hydrobromide",
+                "Form & strength": "5mg",
+                "Pack Type": "Blister",
+                "Packing Style": "10's"
+            }
+        ]
+    },
+    {
+        "Herbal Lozenges": [
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "Glycyrrhiza Glabra + Zingiber Officinale\n+ Curcuma Longa + Mentha Piperita",
+                "Form & strength": "20mg + 5mg + 5mg + 2mg +\n7mg",
+                "Pack Type": "Blister",
+                "Packing Style": "10's"
+            },
+            {
+                "Product": "Lozenge",
+                "Active Ingredient": "Glycyrrhiza Glabra + Zingiber Officinale\n+ Emblica Officinalis + Menthol",
+                "Form & strength": "15mg + 10mg + 10mg + 7mg",
+                "Pack Type": "Blister",
+                "Packing Style": "10's"
+            }
+        ]
+    }
+]

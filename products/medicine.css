@@ -1,0 +1,154 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #0082bb;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 10px auto;
+}
+
+th, td {
+    border: 1px solid #888B8D;
+    padding: 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #0082bb;
+    color: white;
+}
+
+.table-container {
+    overflow-x: auto;
+    max-width: 100%; /* Ensure the table container doesn't exceed the width of the viewport */
+}
+
+.submitBtn {
+    background-color: #da291c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submitBtn:hover {
+    background-color: #888B8D;
+}
+
+.goBackBtn {
+    background-color: #da291c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.goBackBtn:hover {
+    background-color: #888B8D;
+}
+
+/* .goBackLink {
+    color: #da291c;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.goBackLink:hover {
+    color: #0082bb;
+} */
+
+#sideNav {
+    list-style-type: none;
+    padding: 0 10px;
+    background-color: transparent;
+    /* border-right: 1px solid #ccc; */
+    height: 100%;
+    overflow-y: auto;
+    width: 250px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+
+#sideNav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    transition: padding 0.3s;
+}
+
+#sideNav a:hover {
+    padding-left: 20px;
+    background-color: #ddd;
+}
+
+/* Adjust header position */
+#header {
+    z-index: 1000; /* Ensure header is on top */
+}
+
+/* Adjust main content position */
+#main {
+    padding-top: 80px; /* Match header height */
+    padding-bottom: 60px; /* Match footer height */
+}
+
+/* Adjust footer position */
+#footer {
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+    z-index: 1000; /* Ensure footer is on top */
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0082bb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00588a;
+}
+

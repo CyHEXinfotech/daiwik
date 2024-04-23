@@ -1,0 +1,166 @@
+[
+    {
+        "Gelatins": [
+            {
+                "srno": "01",
+                "category": "Vitamins, Minerals with Ginseng",
+                "productcode": "SP 001\n"
+            },
+            {
+                "srno": "02",
+                "category": "Vitamins and Minerals",
+                "productcode": "SP 002\n"
+            },
+            {
+                "srno": "03",
+                "category": "Betacarotene and Minerals",
+                "productcode": "SP 003\n"
+            },
+            {
+                "srno": "04",
+                "category": "Betacarotene, Vitamins and Minerals",
+                "productcode": "SP 004\n"
+            },
+            {
+                "srno": "05",
+                "category": "Mecobalamin, Alpha Lipoic Acid, Vitamins & Minerals",
+                "productcode": "SP 005\n"
+            },
+            {
+                "srno": "06",
+                "category": "Vitamins E Products",
+                "productcode": "SP 006\n"
+            },
+            {
+                "srno": "07",
+                "category": "Vitamins A Products",
+                "productcode": "SP 007\n"
+            },
+            {
+                "srno": "08",
+                "category": "Mixed Carotenoids",
+                "productcode": "SP 008\n"
+            },
+            {
+                "srno": "09",
+                "category": "Calcitriol, Calcium and other Minerals",
+                "productcode": "SP 009\n"
+            },
+            {
+                "srno": "10",
+                "category": "Cod Liver Oil Preperations",
+                "productcode": "SP 010\n"
+            },
+            {
+                "srno": "11",
+                "category": "Isotretinion Products",
+                "productcode": "SP 011\n"
+            },
+            {
+                "srno": "12",
+                "category": "EPA, DHA Products",
+                "productcode": "SP 012\n"
+            },
+            {
+                "srno": "13",
+                "category": "For Administration in Proctology",
+                "productcode": "SP 013\n"
+            },
+            {
+                "srno": "14",
+                "category": "For Administration in Cold (For Inhalation)",
+                "productcode": "SP 014\n"
+            },
+            {
+                "srno": "15",
+                "category": "Primerose, Gama Linolenic Acid Preperations",
+                "productcode": "SP 015\n"
+            },
+            {
+                "srno": "16",
+                "category": "Nifedipine Capsules",
+                "productcode": "SP 016\n"
+            },
+            {
+                "srno": "17",
+                "category": "Food Products",
+                "productcode": "SP 017\n"
+            },
+            {
+                "srno": "18",
+                "category": "Co,enzyme Q10",
+                "productcode": "SP 018\n"
+            },
+            {
+                "srno": "19",
+                "category": "Coenzyme Q10 EPA/DHA",
+                "productcode": "SP 019\n"
+            },
+            {
+                "srno": "20",
+                "category": "Neemseed Oil",
+                "productcode": "SP 020\n"
+            },
+            {
+                "srno": "21",
+                "category": "Flexseed Oil",
+                "productcode": "SP 021\n"
+            },
+            {
+                "srno": "22",
+                "category": "Vaginal Suppositories Capsules",
+                "productcode": "SP 022\n"
+            },
+            {
+                "srno": "23",
+                "category": "Progesterone Capsules",
+                "productcode": "SP 023\n"
+            },
+            {
+                "srno": "24",
+                "category": "Folic with DHA Capsules",
+                "productcode": "SP 024\n"
+            },
+            {
+                "srno": "25",
+                "category": "Garlic Capsules",
+                "productcode": "SP 025\n"
+            },
+            {
+                "srno": "26",
+                "category": "Simethicone Capsules",
+                "productcode": "SP 026\n"
+            },
+            {
+                "srno": "27",
+                "category": "Pain/Fever Capsules",
+                "productcode": "SP 027\n"
+            },
+            {
+                "srno": "28",
+                "category": "Silymarin Capsules",
+                "productcode": "SP 028\n"
+            },
+            {
+                "srno": "29",
+                "category": "Ginkobiloba Capsules",
+                "productcode": "SP 029\n"
+            },
+            {
+                "srno": "30",
+                "category": "Vitamin D3 Capsules",
+                "productcode": "SP 030\n"
+            },
+            {
+                "srno": "31",
+                "category": "Resveratrol + Grapeseed Capsules",
+                "productcode": "SP 031\n"
+            },
+            {
+                "srno": "32",
+                "category": "Guayacol+ Eucalyptol Capsules",
+                "productcode": "SP 032"
+            }
+        ]
+    }
+]
