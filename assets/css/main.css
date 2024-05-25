@@ -21,6 +21,10 @@
 * {
   font-family: var(--font-default) !important;
 }
+.image-row {
+  display: flex;
+  justify-content: space-between; /* this will add equal space between each image */
+}
 
 /* Colors */
 :root {
