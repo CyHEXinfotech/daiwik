@@ -2090,7 +2090,7 @@ section {
   display: block;
   width: 80px;
   height: 4px;
-  background: var(--color-primary);
+  background: #0082bb;
   left: 0;
   right: 0;
   bottom: 0;
@@ -2119,11 +2119,11 @@ section {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  border: 2px solid var(--color-primary);
+  border: 2px solid #0082bb;
 }
 
 .hero .info .btn-get-started:hover {
-  background: var(--color-primary);
+  background:  #0082bb ;
 }
 
 .hero .carousel-control-prev {
