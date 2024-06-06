@@ -2049,7 +2049,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(26, 150, 30, 0.712); /* #0082bb with 70% opacity */
+  background-color: rgba(26, 135, 30, 0.712); /* #0082bb with 70% opacity */
   position: absolute;
   inset: 0;
 }
