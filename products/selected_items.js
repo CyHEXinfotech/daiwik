@@ -1,20 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
     const selectedProducts = JSON.parse(sessionStorage.getItem("selectedProducts")) || [];
     const selectedItemsTable = document.querySelector("#selectedItemsTable");
+    
     // Display selected items in a table on the second page
     selectedProducts.forEach((product) => {
         const row = selectedItemsTable.insertRow(-1);
-        const activeIngredientCell = row.insertCell(0);
-        const formCell = row.insertCell(1);
-        const strengthCell = row.insertCell(2);
-        const packTypeCell = row.insertCell(3);
-        const packingStyleCell = row.insertCell(4);
-
-        activeIngredientCell.textContent = product["Active Ingredient"];
-        formCell.textContent = product["Form"];
-        strengthCell.textContent = product["Strength"];
-        packTypeCell.textContent = product["Pack Type"];
-        packingStyleCell.textContent = product["Packing Size"];
+        
+        // Extract the first 5 columns from the product
+        const columnsToDisplay = Object.values(product).slice(0, 6);
+        
+        // Loop through each property in the product object and create cells
+        columnsToDisplay.forEach(value => {
+            const cell = row.insertCell();
+            cell.textContent = value;
+        });
     });
 
     // Function to handle form submission

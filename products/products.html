@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Items for Enquiry</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div id="google_translate_element"></div>
+
+    <div class="container text-center" style="margin-top: 50px; margin-bottom: 50px;">
+        <h1>Selected Items for Enquiry</h1>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                    <tr id="tableHeadings">
+                        <th>Sr. No.</th>
+                        <th>Product Name / Generic Name</th>
+                        <th>Label Claim</th>
+                        <th>Batch Size</th>
+                        <th>Pack Size</th>
+                        <th>Configuration</th>
+                    </tr>
+                </thead>
+                <tbody id="selectedItemsTable">
+                    <!-- Selected items will be displayed here using JavaScript -->
+                </tbody>
+            </table>
+        </div>
+        <form style="margin-top: 70px;">
+            <h2 style="margin-bottom: 30px;">Contact Details</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" name="number" required><br>
+
+            <label for="comment">Comment (if any):</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+
+            <button type="submit" class="submitBtn">Submit</button>
+            <a href="./products.html">
+                <button type="button" href="./therapeutic.html" class="goBackBtn">Go Back</button>
+            </a>
+        </form>
+    </div>
+
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                userLanguage: 'auto',
+                layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
+                autoDisplay: true
+            }, 'google_translate_element');
+        }
+
+        window.addEventListener('load', function() {
+            const selectElement = document.querySelector('.goog-te-combo');
+            if (selectElement) {
+                var event = new Event('change');
+                selectElement.dispatchEvent(event);
+                selectElement.dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+
+    <script src="./selected_items.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
