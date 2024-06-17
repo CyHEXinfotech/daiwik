@@ -2049,7 +2049,7 @@ section {
 
 .hero .carousel-item::before {
   content: "";
-  background-color: rgba(98, 230, 102, 0.743); /* #0082bb with 70% opacity */
+  background-color: rgba(98, 230, 102, 0.85); /* #0082bb with 70% opacity */
   position: absolute;
   inset: 0;
 }
@@ -2105,13 +2105,14 @@ section {
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 20px;
+  /* font-weight: 700; */
 }
 
 .hero .info .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;

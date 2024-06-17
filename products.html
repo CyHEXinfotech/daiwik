@@ -1,647 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Daiwik Pharmasphere | Products</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Products | Daiwik Pharmasphere</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap"
+        rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="medicine.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+    <style>
+        .table-container {
+            overflow-x: auto;
+        }
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
 
+        .sticky-table {
+            overflow-x: auto;
+            display: block;
+        }
 
+        .sticky-table th,
+        .sticky-table td {
+            padding: 8px;
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        .sticky-table th.sticky,
+        .sticky-table td.sticky {
+            position: sticky;
+            left: 0;
+            background: white;
+            z-index: 2;
+            box-shadow: 2px 0 5px -2px #888;
+        }
+
+        .sticky-table th.sticky:nth-child(2),
+        .sticky-table td.sticky:nth-child(2) {
+            left: 100px;
+            /* Adjust as needed */
+        }
+
+        .sticky-table th.sticky:nth-child(3),
+        .sticky-table td.sticky:nth-child(3) {
+            left: 200px;
+            /* Adjust as needed */
+        }
+
+        /* .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #444;
+        } */
+        /* .content {
+            margin-left: 200px;
+            padding: 20px;
+        } */
+    </style>
 </head>
 
 <body>
 
-  <div id="google_translate_element"></div>
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/DAIWIK.png" alt="">
-        <!-- <h1>Daiwik Pharmasphere<span>.</span></h1> -->
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list" style="color: black"></i>
-        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="dropdown"><a href="#" ><span>Our Facility</span> <i
-              class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="news-announcements.html">Facilities</a></li>
-                <li><a href="events.html">Infrastructure</a></li>
-              </ul>
-            </li>
-            <li><a href="careers.html"><span>Our Approvals</a></li>
-            <li class><a href="products.html" class="active">Products</a></li>
-            <li class="dropdown"><a href="about.html"><span>About Us</span> <i
-              class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="about.html#aboutus">Mission, Vision & Values</a></li>
-                <li><a href="about.html#alt-services">Manufacturing</a></li>
-                <li><a href="about.html#alt-services-2">Research & Development</a></li>
-                <li><a href="about.html#team">Management Team</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact Us</a></li>
-
-          </ul>
-        </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-
-        <h2>Product Gallery</h2>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Products</li>
-        </ol>
-
-      </div>
-    </div><!-- End Breadcrumbs -->
-
-    <!-- ======= Our Projects Section ======= -->
-    <section id="projects" class="projects">
-      <div class="container" data-aos="fade-up">
 
 
+    <div class="content">
+        <!-- ======= Header ======= -->
+        <header id="header" class="header d-flex align-items-center">
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-        <!-- <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order"> -->
+                <a href="../index.html" class="logo d-flex align-items-center">
+                    <!-- Uncomment the line below if you also wish to use an image logo -->
+                    <img src="../assets/img/DAIWIK.png" alt="">
+                    <!-- <h1>Daiwik Pharmasphere<span>.</span></h1> -->
+                </a>
 
-        <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list" style="color: black"></i>
+                <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li class="dropdown"><a href="../about.html"><span>About Us</span> <i
+                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                                <li><a href="../about.html#aboutus">Mission, Vision & Values</a></li>
+                                <li><a href="../about.html#alt-services">Manufacturing</a></li>
+                                <li><a href="../about.html#alt-services-2">Research & Development</a></li>
+                                <li><a href="../about.html#team">Management Team</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Products</a></li>
+                        <li class="dropdown"><a href="#"><span>Media Center</span> <i
+                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                                <li><a href="../news-announcements.html">News and Announcements</a></li>
+                                <li><a href="../events.html">Events</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="../careers.html"><span>Careers</span> <i
+                                    class="bi bi-chevron-down dropdown-indicator"></i></a>
+                            <ul>
+                                <li><a href="../careers/working-at-apex.html">Working At Apex</a></li>
+                                <li><a href="../careers/current-openings.html">Current Openings</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../contact.html">Contact Us</a></li>
 
+                    </ul>
+                </nav><!-- .navbar -->
 
-          <!-- pp1 -->
-
-        
-          <div class="col-lg-4 col-md-6 portfolio-item" >
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Bectaso.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Bectaso.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
             </div>
-          </div>
+        </header><!-- End Header -->
 
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Budeair.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Budeair.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
+        <div class="row" style="margin: 70px 10px;">
+            <!-- sidebar -->
+            <div class="col-lg-2">
+                <!-- Button to toggle side navigation on mobile screens -->
+                <button class="btn btn-primary d-lg-none mx-auto" style="margin-top: 100px;" id="toggleBtn">Toggle
+                    Categories</button>
+
+                <!-- Side navigation -->
+                <ul id="sideNav" class="d-lg-block" style="margin: 70px 45px 0 10px;">
+                    <a href="#internationalProducts">International Products</a>
+                    <a href="#domesticProducts">Domestic Products</a>
+                </ul>
             </div>
-          </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Inhamol.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Inhamol.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Iprasa.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Iprasa.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Salmutica 25+125.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Salmutica 25+125.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Salmutica 25+250.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Salmutica 25+250.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 portfolio-item">
-              <div class="portfolio-content h-100">
-                <img src="assets/product-images/PP1/Salmutica 250mcg.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <a href="assets/product-images/PP1/Salmutica 250mcg.jpg" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <div class="col-lg-10">
+                <div id="mainContent" class="text-center" style="margin-top: 70px;">
+                    
+                    <h1 id="internationalProducts">Enquiry for Products - International Products</h1>
+                    <div class="table-container">
+                        <table id="productTable" class="mx-auto">
+                            <thead>
+                                <tr>
+                                    <!-- Table headers will be generated using JavaScript -->
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table rows will be generated using JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <h1 id="domesticProducts" style="margin-top: 70px;">Enquiry for Products - Domestic Products</h1>
+                    <div class="table-container">
+                        <table id="domesticProductsTable" class="mx-auto">
+                            <thead>
+                                <tr>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table rows will be generated from domestic_products.json using JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-              </div>
-            </div> -->
 
+                <!-- FORM -->
+                <form id="requestForm">
+                    <button type="submit" style="margin-top: 50px; margin-bottom: 50px;"
+                        class="submitBtn btn d-block mx-auto">Send Request</button>
+                </form>
 
-          <!-- pp2 -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Bisoprolol fumarate.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Bisoprolol fumarate.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Clotrimazol.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Clotrimazol.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Indura.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Indura.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/levodopa y carbidopa.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/levodopa y carbidopa.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Naproxen _ Carisoprodol.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Naproxen _ Carisoprodol.jpg"
-                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Nitroglycerin.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Nitroglycerin.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Noradrenaline.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Noradrenaline.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Quetiapine.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Quetiapine.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/RIzatriptan_10mg_Packshot.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/RIzatriptan_10mg_Packshot.jpg"
-                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Valaciclovir.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Valaciclovir.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Vamlodi-HZ.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Vamlodi-HZ.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP2/Vasopressin.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP2/Vasopressin.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Mupirocin.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Mupirocin.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Samlo-AT.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Samlo-AT.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Tacrolex.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Tacrolex.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/LAD-36.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/LAD-36.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Acetylcysteine tablets.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Acetylcysteine tablets.png"
-                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP1/Vitamin C_packshot.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP1/Vitamin C_packshot.png" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <!-- pp3 -->
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Sertraline Chlorhydrate.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Sertraline Chlorhydrate.jpg"
-                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Amlodipine.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Amlodipine.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Baclofen.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Baclofen.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Calcium Carbonate.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Calcium Carbonate.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Furosemide.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Furosemide.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Olanzapine.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Olanzapine.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (2).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (2).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (3).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (3).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (4).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (4).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (5).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (5).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (6).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (6).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/Ambroxol.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/Ambroxol.jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (7).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (7).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item">
-            <div class="portfolio-content h-100">
-              <img src="assets/product-images/PP3/p0img_XL (1).jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <a href="assets/product-images/PP3/p0img_XL (1).jpg" data-gallery="portfolio-gallery-remodeling"
-                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-        </div><!-- End Projects Container -->
-
-        <!-- </div> -->
-
-      </div>
-    </section><!-- End Our Projects Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content position-relative">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Daiwik Pharmasphere</h3>
-              <p>
-               Motiwada, Behind Raymonds, <br> 
-               Tal. Pardi, Valsad, 
-               Gujarat, India. <br><br>
-                <strong>Phone:</strong> 84693 44488 / 84693 66688 <br>
-                <strong>Email:</strong> info@daiwikpharma.com<br>
-              </p>
-              <div class="social-links d-flex mt-3">
-                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a> -->
-                <!-- <a href="https://www.linkedin.com/company/apex-drug-house/?originalSubdomain=in" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a> -->
-              </div>
-            </div>
-          </div><!-- End footer info column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About us</a></li>
-              <li><a href="products.html">Products</a></li>
-            </ul>
-          </div><!-- End footer links column-->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Additional Links</h4>
-            <ul>
-                <li><a href="./Apex_Product_List.pdf" target="_blank">Product Brochure</a></li>
-              <li><a href="contact.html" target="_blank">Enquiry</a></li>
-            </ul>
-          </div><!-- End footer links column-->
 
         </div>
-      </div>
-    </div>
-
-    <div class="footer-legal text-center position-relative">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Daiwik Pharmasphere</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://cyhex.co/">Cyhex</a>
-        </div>
-      </div>
-    </div>
-
-  </footer>
-  <!-- End Footer -->
-
-  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        userLanguage: 'auto',
-        layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
-        autoDisplay: true
-      }, 'google_translate_element');
-    }
-  </script>
-
-  <script type="text/javascript">
-
-    window.addEventListener('load', function () {
-      const selectElement = document.querySelector('.goog-te-combo');
-      if (selectElement) {
-        var event = new Event('change');
-        selectElement.dispatchEvent(event);
-        selectElement.dispatchEvent(new Event('change'));
-      }
-    });
-  </script>
 
 
-  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer" class="footer">
+
+            <div class="footer-content position-relative">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="footer-info">
+                                <h3>Daiwik Pharmasphere</h3>
+                                <p>
+                                    404, D Square, Opposite C.N.M. School, <br> Dadabhai Road, Vile Parle West, <br>
+                                    Mumbai – 400056, Maharashtra, India. <br><br> <strong>Phone:</strong> +91 22
+                                    26709200-300 / 26709700-800<br> <strong>Email:</strong> info@adh.co.in<br>
+                                </p>
+                                <div class="social-links d-flex mt-3">
+                                    <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a> -->
+                                    <!-- <a href="https://www.linkedin.com/company/apex-drug-house/?originalSubdomain=in" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a> -->
+                                </div>
+                            </div>
+                        </div><!-- End footer info column-->
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="../about.html">About us</a></li>
+                                <li><a href="../products.html">Products</a></li>
+                            </ul>
+                        </div><!-- End footer links column-->
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>Additional Links</h4>
+                            <ul>
+                                <li><a href=".#" target="_blank">Product Brochure</a></li>
+                                <li><a href="../contact.html" target="_blank">Enquiry</a></li>
+                            </ul>
+                        </div><!-- End footer links column-->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-legal text-center position-relative">
+                <div class="container">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Daiwik Pharmasphere</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="https://cyhex.co/">Cyhex</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- End Footer -->
+        <div id="preloader"></div>
+
+        <!-- Vendor JS Files -->
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/vendor/aos/aos.js"></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="../assets/js/main.js"></script>
+
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="./products.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </body>
 
 </html>

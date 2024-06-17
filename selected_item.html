@@ -31,17 +31,19 @@
 
 <body>
 
-  <div id="google_translate_element"></div>    <div class="container text-center" style="margin-top: 50px; margin-bottom: 50px;">
+  <div id="google_translate_element"></div>    
+  <div class="container text-center" style="margin-top: 50px; margin-bottom: 100px;">
         <h1>Selected Items for Enquiry</h1>
         <div class="table-container">
             <table>
                 <thead>
                     <tr>
-                        <th>Product</th>
-                        <th>Active Ingredient</th>
-                        <th>Form</th>
-                        <th>Pack Type</th>
-                        <th>Packing Style</th>
+                      <th>Sr. No.</th>
+                      <th>Product Name / Generic Name</th>
+                      <th>Label Claim</th>
+                      <th>Batch Size</th>
+                      <th>Pack Size</th>
+                      <th>Configuration</th>
                     </tr>
                 </thead>
                 <tbody id="selectedItemsTable">
@@ -51,27 +53,27 @@
         </div>
         <form style="margin-top: 70px;">
             <h2 style="margin-bottom: 30px;">Contact Details</h2>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
+            <label style="text-align: left;" for="name">Name:</label>
+            <input style="margin-bottom: 50px;" type="text" id="name" name="name" required><br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <label style="text-align: left;" for="email">Email:</label>
+            <input style="margin-bottom: 50px;" type="email" id="email" name="email" required><br>
 
-            <label for="number">Phone Number:</label>
-            <input type="tel" id="number" name="number" required><br>
+            <label style="text-align: left;" for="number">Phone Number:</label>
+            <input style="margin-bottom: 50px;" type="tel" id="number" name="number" required><br>
 
-            <label for="comment">Comment (if any):</label><br>
-            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+            <label style="text-align: left;" for="comment">Comment (if any):</label><br>
+            <textarea style="margin-bottom: 50px;" id="comment" name="comment" rows="4" cols="50"></textarea><br>
 
             <button type="submit" class="submitBtn">Submit</button>
-            <a href="./specialty.html">
-                <button type="button" href="./specialty.html" class="goBackBtn">Go Back</button>
+            <a href="./products.html">
+                <button type="button" href="./products.html" class="goBackBtn">Go Back</button>
             </a>
         </form>
     </div>
 
 
-    <script src="./selected_special.js"></script>
+    <script src="./selected_items.js"></script>
     
     
     <div id="preloader"></div>
